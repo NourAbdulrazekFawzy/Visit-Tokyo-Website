@@ -1,0 +1,178 @@
+.banner{
+    background-image: url(https://i.pinimg.com/736x/4e/e8/d9/4ee8d9fa13b7f773349bfa29cc18f859.jpg);
+background-size: cover;
+    margin: 0 ;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed; /* This keeps the background fixed */
+    background-size: cover; /* This ensures the image covers the whole viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.manga{
+border-radius: 10px;
+background-color: rgba(255, 235, 205, 0.904);
+margin: 70px;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.image{
+     /* Set a size for the image */
+    margin-right: 10px; /* Space between image and text */
+    margin-left: 10px;
+}
+
+.text{
+    flex: 1; /* Allows the text to take the remaining space */
+}
+
+.intro{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    background-image: url(https://img.freepik.com/free-vector/abstract-memphis-purple-background-pastel-color-design-vector_53876-151387.jpg?w=2000);
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column; /* Stack elements vertically */
+    height: 500px;
+    
+}
+
+.head{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.par{
+    font-size: medium;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.foot{
+    background-image: url(https://img.freepik.com/free-vector/abstract-memphis-purple-background-pastel-color-design-vector_53876-151387.jpg?w=2000);
+    height: 100px;
+    padding-top: 50px;
+}
+.nav-menu ul{
+    display: flex;
+    justify-content: center;
+    }
+    .nav-menu ul li{
+    list-style-type: none;
+    }
+    .nav-menu ul li .link{
+    text-decoration: none;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 0 25px;
+    color: rgb(247, 240, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .link:hover, .active{
+    border-bottom: 2px solid;
+    
+    }
+    img, video {
+        max-width: 100%;
+        height: auto;
+      }
+      /* --- RESPONSIVE DESIGN --- */
+@media (max-width: 1024px) {
+    .manga {
+      margin: 40px auto;
+      width: 90%;
+    }
+  
+    .row {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+  
+    .image {
+      width: 100%;
+      margin: 10px 0;
+      text-align: center;
+    }
+  
+    .text {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .intro {
+      height: auto;
+      padding: 30px 10px;
+    }
+  }
+    .par {
+      font-size: 14px;
+      padding: 0 15px;
+    }
+  
+    .nav-menu ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+      }
+      @media (min-width: 1200px) {
+        .row {
+          justify-content: space-evenly;
+          flex-wrap: wrap;
+          gap: 30px;
+        }
+      
+        .university-col {
+          flex-basis: 28%;
+          max-width: 300px;
+          height: auto;
+          margin-top: 40px;
+        }
+      
+        .contact-container {
+          max-width: 700px;
+          padding: 50px;
+        }
+      
+        .wrapper2 {
+          width: 400px;
+          height: auto;
+        }
+      
+        .nav-menu ul {
+          justify-content: center;
+          gap: 40px;
+        }
+      
+        .social-icon {
+          font-size: 40px;
+          margin-top: 60px;
+        }
+      
+        .nav-button .btn {
+          margin-right: 0;
+        }
+      
+        .fg {
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+     
+      

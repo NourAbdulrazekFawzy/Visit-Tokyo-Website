@@ -1,0 +1,352 @@
+.testimonials{
+text-align: center;
+width: 80%;
+margin: auto;
+padding-top: 0;
+}
+.testimonial-col{
+flex-basis: 44%;
+border-radius: 10px;
+cursor: pointer;
+display: flex;
+background-color: antiquewhite;
+padding: 25px;
+margin-bottom:5%;
+text-align: left;
+width: 50%;
+height: 50%;
+font-family: Arial, Helvetica, sans-serif;
+}
+.testimonial-col img{
+height: 50px;
+border-radius: 50%;
+margin-left: 5px;
+margin-right: 30px;
+}.testimonial-col p{
+font-size: 15px;
+font-weight: 100;
+}
+.facilities{
+text-align: center;
+margin: auto;
+padding-top: 8px;
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+.facilities-col{
+margin-bottom: 5%;
+flex-basis: 31%;
+border-radius: 10px;
+margin-right: 30px;
+}
+.facilities img{
+width: 80%;
+height: 60%;
+}
+.facilities-col img{
+transition: 0.5s;
+border-radius: 10px;
+opacity: 1;
+margin-top: 30px;
+}
+.facilities :hover img{
+box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.restaurants{
+text-align: center;
+width: 80%;
+margin-bottom: 200px;
+padding-top: 0px;
+margin: 0 auto;
+color: aliceblue;
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+.restaurant-col {  
+flex-basis: 31%;
+border-radius: 20px;
+margin-left: 0;
+transition: 0.5s;
+}
+.restaurant-col img{ 
+  border-radius: 10px; 
+  margin-left: 30px;
+  margin-top: 0%;
+  width: 100%;
+  height: 50%;
+   margin-top: 20px;
+}
+.restaurants :hover img {
+box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.banner{
+background-image: url(https://images.unsplash.com/photo-1569470451072-68314f596aec?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D);
+background-size: cover;
+margin: 0 auto;
+width: 100%;
+height: 100%;
+}
+.nav-menu ul{
+  display: flex;
+  justify-content: center;
+  }
+  .nav-menu ul li{
+  list-style-type: none;
+  }
+  .nav-menu ul li .link{
+  text-decoration: none;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  margin: 0 25px;
+  color: rgb(12, 12, 12);
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  .link:hover, .active{
+  border-bottom: 2px solid;
+  
+  }
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+  .container {
+    display: flex;
+    flex-direction: row; /* أو حسب اللي عندك */
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  }
+  /* ======== Testimonials ======== */
+.testimonials {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  padding-top: 0;
+}
+
+.testimonial-col {
+  flex-basis: 44%;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  background-color: antiquewhite;
+  padding: 25px;
+  margin-bottom: 5%;
+  text-align: left;
+  width: 50%;
+  height: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.testimonial-col img {
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 30px;
+}
+
+.testimonial-col p {
+  font-size: 15px;
+  font-weight: 100;
+}
+
+/* ========== Facilities ========== */
+.facilities {
+  text-align: center;
+  margin: auto;
+  padding-top: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.facilities-col {
+  margin-bottom: 5%;
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+
+.facilities img {
+  width: 80%;
+  height: 60%;
+}
+
+.facilities-col img {
+  transition: 0.5s;
+  border-radius: 10px;
+  opacity: 1;
+  margin-top: 30px;
+}
+
+.facilities :hover img {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* ========== Restaurants ========== */
+.restaurants {
+  text-align: center;
+  width: 80%;
+  margin-bottom: 200px;
+  padding-top: 0px;
+  margin: 0 auto;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.restaurant-col {
+  flex-basis: 31%;
+  border-radius: 20px;
+  margin-left: 0;
+  transition: 0.5s;
+}
+
+.restaurant-col img {
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-top: 0%;
+  width: 100%;
+  height: 50%;
+  margin-top: 20px;
+}
+
+.restaurants :hover img {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* ======== Banner ======== */
+.banner {
+  background-image: url(https://images.unsplash.com/photo-1569470451072-68314f596aec?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+/* ======== Navigation Menu ======== */
+.nav-menu ul {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-menu ul li {
+  list-style-type: none;
+}
+
+.nav-menu ul li .link {
+  text-decoration: none;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  margin: 0 25px;
+  color: rgb(12, 12, 12);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link:hover, .active {
+  border-bottom: 2px solid;
+}
+
+/* ======== Images and Videos ======== */
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ======== Container ======== */
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* ======== Media Queries for Responsiveness ======== */
+@media (max-width: 1024px) {
+  /* Adjust flex basis for testimonial columns */
+  .testimonial-col {
+    flex-basis: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* Adjust layout for facilities */
+  .facilities-col {
+    flex-basis: 48%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* Adjust layout for restaurants */
+  .restaurant-col {
+    flex-basis: 48%;
+  }
+
+  /* Adjust layout for the banner */
+  .banner {
+    background-position: center;
+  }
+
+  /* Adjust navigation for small screens */
+  .nav-menu ul {
+    flex-direction: column;
+  }
+
+  .nav-menu ul li .link {
+    margin: 10px 0;
+  }
+
+  /* Adjust image sizes */
+  .facilities img, .restaurants img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Adjust flex-direction of container */
+  .container {
+    flex-direction: column;
+  }
+
+  /* Adjust testimonial columns */
+  .testimonial-col {
+    flex-basis: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* Adjust facilities columns */
+  .facilities-col {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* Adjust restaurant columns */
+  .restaurant-col {
+    flex-basis: 100%;
+  }
+}
+
+ 
+  
+  
+ 
+    
+
+
+
+
+
+
+
+
+

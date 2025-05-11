@@ -1,0 +1,393 @@
+.wrapper{
+    background-image: url(https://i.redd.it/u7u8bqnya8v11.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+
+}
+
+.nav-logo p{
+color: rgb(8, 8, 8);
+font-family: Arial, Helvetica, sans-serif;
+}
+.header{ 
+       
+width: 100%;
+top: 0;
+left: 0;
+position: fixed;
+}
+.fg{
+color: aliceblue;
+font-size: 25px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 2%;
+}
+.nav-menu ul{
+display: flex;
+justify-content: center;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 0;
+    }
+    .nav-menu ul li{
+    list-style-type: none;
+    margin-top: 4%;
+    }
+    .nav-menu ul li .link{
+    text-decoration: none;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 0 25px;
+    color: rgb(245, 239, 239);
+    }
+    .link-active {
+        color: rgb(247, 238, 238);
+        
+            }
+            .link:hover, .active{
+            border-bottom: 2px solid;
+            
+            }
+.university{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    }
+    .tu{
+
+        color: aliceblue;
+    }
+    h1{
+    font-size: 36px;
+    font-weight: 600;
+    margin: 10px;
+    color: aliceblue;
+    }
+    .hh{
+
+      color: aliceblue; 
+      margin-top: 6%; 
+    } 
+    p{
+    color: rgb(250, 242, 242);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    }
+    .nour{
+color: rgb(252, 249, 249);
+    }
+    .row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    }
+    .university-col{
+    flex-basis: 31%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: rgba(10, 10, 10, 0.938);
+    transition: 0.5s;
+    width: 200px;
+    height: 200px;
+    margin-top: 30%;
+    }
+    .university-col:hover{
+    box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.2);
+    }
+.nav-button .btn{
+width: 130px;
+height: 40px;
+border: none;
+border-radius: 30px;
+cursor: pointer;
+transition: 3s ease;
+background-color: rgb(67, 87, 99);
+margin-top: 70%;
+
+}
+.btn .white-btn{
+background-color: rgb(252, 242, 242);
+}
+.btn{
+background-color: rgb(247, 241, 241);
+}
+.btn .btn .white-btn{
+background-color: rgb(233, 236, 236);
+}
+.btn:hover{
+background-color: rgb(248, 241, 241);
+transition: none;
+}
+.input-box{
+border: none;
+border-radius: 50px;
+cursor: pointer;
+background-color: rgba(250, 243, 243, 0.2);
+width: 130px;
+height: 30px;
+margin: 10px;
+}
+
+.wrapper2{
+background-color: rgba(248, 238, 238, 0.26);
+justify-content: center;
+border-radius: 30px;
+width: 300px;
+height: 300px;
+}
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Section Style */
+.contact-section {
+    background: linear-gradient(to right, #00bcd4, #0081a7);
+    padding: 60px 0;
+    width: 100%;
+}
+
+/* Container for the Form */
+.contact-container {
+    background-color: #ffffff;
+    padding: 40px;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #777;
+}
+
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Social Media Icons Style */
+.social-container {
+    
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-icon {
+    font-size: 50px;
+    color: #fcf8f8;
+    text-decoration: none;
+    transition: color 0.3s ease;
+   margin-top: 250%;
+}
+
+.social-icon:hover {
+color: rgb(6, 75, 117);; /* أو أي لون آخر يعجبك */
+}
+.uu{
+margin-top: 8%;
+}
+.ul{
+margin-top: 4%;
+}
+.gg{
+text-align: left;
+color: #f0f4f8;
+padding-left: 3%;
+}
+.nav-button .btn{
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 3s ease;
+    background-color: rgb(150, 48, 48);
+    margin-right: 180px;
+    margin-top: 20px;
+    }
+    .btn .white-btn{
+    background-color: rgb(252, 242, 242);
+    }
+    .btn{
+    background-color: rgb(247, 241, 241);
+    }
+    .btn .btn .white-btn{
+    background-color: rgb(233, 236, 236);
+    }
+    .btn:hover{
+    background-color: rgb(248, 241, 241);
+    transition: none;
+    }
+    .fg{
+background-color: rgb(155, 29, 29);
+width: 100px;
+height: 50px;
+margin-left: 45%;
+border-radius: 10px;
+border: none;
+margin-top: 2%;
+    }
+    .nn{
+text-align: center;
+color: aliceblue;
+    }
+   img, video {
+  max-width: 100%;
+  height: auto;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .social-icons a {
+    color: #fcf8f8;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #2d5079;
+  }
+  
+  @media (max-width: 600px) {
+    .social-icons {
+      gap: 15px;
+      padding: 15px;
+    }
+  
+    .social-icons a {
+      font-size: 20px;
+    }
+  }
+  /* ========== Responsive Design ========== */
+@media (max-width: 992px) {
+    .row {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .university-col {
+      width: 80%;
+      margin: 20px 0;
+      height: auto;
+    }
+  
+    .nav-menu ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-menu ul li {
+      margin-top: 10px;
+    }
+  
+    .fg {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .wrapper2 {
+      width: 90%;
+      height: auto;
+    }
+  
+    .contact-container {
+      padding: 20px;
+      width: 90%;
+    }
+  
+    .nav-button .btn {
+      margin-right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+  
+    .social-icon {
+      margin-top: 20px;
+    }
+  
+    .university {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  
+    .fg {
+      width: 80px;
+      height: 40px;
+      font-size: 16px;
+    }
+  
+    .social-icons a {
+      font-size: 18px;
+    }
+  
+    .btn {
+      width: 100px;
+      height: 35px;
+      font-size: 14px;
+    }
+  
+    .nav-logo p {
+      text-align: center;
+      font-size: 16px;
+    }
+  }
+  
+  
+

@@ -1,0 +1,79 @@
+.socialicons {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    }
+    .socialicons a {
+    text-decoration: none;
+    background-color: antiquewhite;
+    padding: 18px;
+    margin: 10px;
+    color:#000000;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .socialicons a i{
+    font-size: 1em;
+    color: black;
+    opacity: 0.9;
+    }
+/*====== Hover Effects on social media icons=========*/
+.socialicons a:hover{
+    background-color: #0c0c0c; 
+    transition :0.5s;
+    color:aliceblue
+    }
+    .socialicons a:hover i{
+    color: rgb(248, 241, 241);
+    transition: 0.5s;
+    }
+    .banner{
+background-image: url(https://images.pexels.com/photos/3403098/pexels-photo-3403098.jpeg?cs=srgb&dl=pexels-apasaric-3403098.jpg&fm=jpg);
+background-size: cover;
+margin: 0;
+width: 100%;
+    }
+  .nour{
+background-color: rgba(235, 232, 241, 0.801);
+border-radius: 20px;
+width: 50%;
+height: 100%;
+padding:5px;
+margin: 2%;
+font-family: Arial, Helvetica, sans-serif;
+  }
+  .nav-menu ul{
+    display: flex;
+    justify-content: center;
+    }
+    .nav-menu ul li{
+    list-style-type: none;
+    }
+    .nav-menu ul li .link{
+    text-decoration: none;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 0 25px;
+    color: rgb(247, 240, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .link:hover, .active{
+    border-bottom: 2px solid;
+    
+    }
+    img, video {
+      max-width: 100%;
+      height: auto;
+    }
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+    }
+
+
+ 
+  
+      
+          
